@@ -1,36 +1,52 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Casa- Informativo</title>
-  <link rel="stylesheet" href="./src/css/casa.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Planta da Casa</title>
+  <link rel="stylesheet" href="./src/css/casa.css" />
 </head>
 <body>
-  <header>
-    <h1>Apresentação da Casa </h1>
-    <p>Resumo explicativo dos desenhos enviados.</p>
+  <header class="topbar">
+    <nav>
+      <a href="casa.html" class="active">Casa</a>
+      <a href="fazenda.html">Fazenda</a>
+    </nav>
+    <h1>Planta da Casa</h1>
+    <p>Residência com piscina e área de lazer.</p>
   </header>
 
-  <section class="card">
-    <h2>Casa Principal</h2>
-    <img src="./src/planta/casa 2.0.png" alt="Planta da casa">
-    <p>
-      <h2>A casa possui</h2> 
-      <strong>2 quartos</strong>,<br>
-      <strong>banheiro completo</strong>, <br>
-      <strong>sala de estar</strong>, <br>
-      <strong>mesa de jantar</strong> e <br>
-      <strong>cozinha equipada</strong>. <br>
-      <h2>Também conta com </h2><br>
-      <strong>área de serviços</strong>,<br>
-      <strong>garagem</strong> e <br>
-      <strong>área de lazer com piscina e churrasqueira</strong>.
-    </p>
-  </section>
+  <main class="container">
+    <figure class="hero">
+      <img src="./src/planta/casa 2.png" alt="Planta baixa da casa com piscina, quartos e cozinha" />
+      <figcaption>Planta baixa de uma residência com piscina e área social.</figcaption>
+    </figure>
 
-  <footer>
-    <p>&copy; 2025 - criado por wesley</p>
+    <ul class="chips">
+      <li>3 Quartos</li>
+      <li>Banheiros</li>
+      <li>Sala de Estar</li>
+      <li>Sala de Jantar</li>
+      <li>Cozinha</li>
+      <li>Piscina</li>
+      <li>Área Gourmet</li>
+      <li>Espaço Verde</li>
+    </ul>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Área Interna</h3>
+        <p>Composta por três quartos, banheiros, cozinha equipada, sala de estar e jantar.</p>
+      </article>
+      <article class="card">
+        <h3>Área Externa</h3>
+        <p>Inclui piscina central, espaço verde e área gourmet com mesas.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <small>Projeto ilustrativo da residência.</small>
   </footer>
 </body>
 </html>

@@ -1,29 +1,54 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Imóveis - Fazenda</title>
-  <link rel="stylesheet" href="style-comercial.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Planta da Fazenda</title>
+  <link rel="stylesheet" href="./src/css/casa.css" />
 </head>
 <body>
-    <section class="card">
-    <h2>Fazenda</h2>
-    <img src="./src/planta/fazenda.png" alt="Planta da fazenda">
-    <p>
-      <h2>A fazenda possui </h2>
-      <strong>casa principal</strong>, <br>
-      <strong>heliponto</strong>, <br>
-      <strong>lago</strong>, <br>
-      <strong>campo de futebol</strong>, <br>
-      <strong>área de eventos com mesas</strong> e <br>
-      <strong>estruturas de apoio</strong>. <br>
-      <h2>Um espaço amplo para lazer e convivência.</h2> <br>
-    </p>
-  </section>
+  <header class="topbar">
+    <nav>
+      <a href="casa.html">Casa</a>
+      <a href="fazenda.html" class="active">Fazenda</a>
+    </nav>
+    <h1>Planta da Fazenda</h1>
+    <p>Vista geral com heliponto, campo e áreas de lazer.</p>
+  </header>
 
-  <footer>
-    <p>&copy; 2025 - criado por wesley</p>
+  <main class="container">
+    <figure class="hero">
+      <img src="./src/planta/fazenda.png" alt="Planta baixa da fazenda com campo, heliponto e áreas de lazer" />
+      <figcaption>Vista geral da fazenda com campo de futebol, heliponto e piscina.</figcaption>
+    </figure>
+
+    <ul class="chips">
+      <li>Residência</li>
+      <li>Piscina</li>
+      <li>Heliponto</li>
+      <li>Campo de Futebol</li>
+      <li>Restaurante/Refeitório</li>
+      <li>Espaços Verdes</li>
+    </ul>
+
+    <div class="grid">
+      <article class="card">
+        <h3>Residência Principal</h3>
+        <p>Ambientes internos completos: quartos, banheiros, sala, cozinha e áreas de convivência.</p>
+      </article>
+      <article class="card">
+        <h3>Lazer e Esporte</h3>
+        <p>Campo de futebol, piscina grande, pista de acesso ao heliponto e muito espaço verde.</p>
+      </article>
+      <article class="card">
+        <h3>Estrutura de Apoio</h3>
+        <p>Refeitório, áreas de convivência externas e construções auxiliares.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <small>Projeto ilustrativo da fazenda.</small>
   </footer>
 </body>
 </html>
